@@ -1,0 +1,102 @@
+body {
+  font-family: "Aclonica";
+  box-sizing: border-box;
+  align-items: center;
+}
+.logo {
+  height: auto;
+  width: 250px;
+}
+nav {
+  background-color: black;
+}
+.img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5%;
+}
+.lnk {
+  color: black;
+}
+
+ul {
+  display: flex;
+  padding: 10px;
+  width: 80%;
+}
+
+ul li {
+  list-style: none;
+  margin-left: auto;
+  align-items: space-between;
+}
+a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.bck {
+  background-color: rgb(252, 127, 81);
+}
+.flex-container {
+  display: flex;
+  padding: 50px;
+  align-items: space-between;
+  width: 80%;
+}
+form {
+  background-color: #ffc074;
+  box-shadow: 0 3px 10px #272624;
+  opacity: 65%;
+  border-radius: 5%;
+  padding: 1rem 2rem;
+  width: 190px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-content: center;
+}
+input,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.8rem;
+}
+
+label {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 100%;
+}
+
+button {
+  border: 0px;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 2rem;
+  border-radius: 30px;
+  width: 85px;
+  border-radius: 30px;
+  border: 1px;
+}
+about {
+  font-family: "Aclonica";
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+footer {
+  background-color: black;
+  min-height: 50px;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 5rem;
+  padding-top: 10px;
+}
